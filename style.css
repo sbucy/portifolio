@@ -1,0 +1,96 @@
+body {
+    position: relative;
+    width: 100;
+    height: 100;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    width: 84;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+.main-home{
+    padding: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.index-col-1{
+    margin-top: 5%;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.index-col-1 a{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.index-col-2{
+    flex-basis: 10%;
+}
+.index-col-2 img{
+    border-radius: 20px;
+}
+
+/*---------------about---------------*/
+#about{
+    padding: 10px 0;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+
+.about-col-1{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-col-1 h1{
+    font-size: 50px;
+}
+
+.about-col-1 img{
+    border-radius: 15px;
+}
+
+.about-col-2{
+    text-align: center;
+}
+
+/*-----------------------my work --------------------------*/
+.my-work h1{
+    text-align: center;
+}
+
+/*----------------contact-------------*/
